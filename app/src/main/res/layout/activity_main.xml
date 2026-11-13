@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shared Preference - Colores"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="129dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnazul"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#23336D"
+            android:text="Azul"
+            android:textColor="#00BCD4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnverde"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#155015"
+            android:text="Verde"
+            android:textColor="#6BFF00"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnrojo"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Rojo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#D40000"
+        android:backgroundTint="#4B1111"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="GUARDAR"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juan Ariza - Duvan Hernandez - Raschid Amin"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="70dp"
+        />
+
+
+
+
+
+</LinearLayout>
